@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="fbsecurity/src"/>
+	<classpathentry kind="lib" path="bibliotecas/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/kumo-1.8.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/restfb-2.0.0-rc.2.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/servlet.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/fbsecurity.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/kumo-1.8.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/restfb-2.0.0-rc.2.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="fbsecurity/dist/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="output" path="fbsecurity/build/classes"/>
+</classpath>
