@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="fbsecurity/src"/>
 	<classpathentry kind="lib" path="bibliotecas/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="bibliotecas/itextpdf-5.5.9.jar"/>
@@ -31,5 +31,7 @@
 	<classpathentry kind="lib" path="fbsecurity/dist/lib/restfb-2.0.0-rc.2.jar"/>
 	<classpathentry kind="lib" path="fbsecurity/dist/lib/servlet.jar"/>
 	<classpathentry kind="lib" path="fbsecurity/dist/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/twitter4j-core-4.0.7.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/weka.jar"/>
 	<classpathentry kind="output" path="fbsecurity/build/classes"/>
 </classpath>
