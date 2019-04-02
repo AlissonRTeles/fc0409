@@ -26,7 +26,7 @@ import com.itextpdf.text.pdf.PdfWriter;
  *
  * @author lipe_
  */
-public class gerarpdf {
+public class GerarPDF {
 
 	int contador=0;
 
@@ -56,9 +56,9 @@ public class gerarpdf {
 				pdf.open();
 			}
 		} catch (FileNotFoundException ex) {
-			Logger.getLogger(gerarpdf.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(GerarPDF.class.getName()).log(Level.SEVERE, null, ex);
 		} catch (DocumentException ex) {
-			Logger.getLogger(gerarpdf.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(GerarPDF.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}      
 
@@ -80,7 +80,7 @@ public class gerarpdf {
 			pdf.add(chunk);                      
 			pdf.add(new Paragraph("---------------------------------------------------------",perg));
 		} catch (DocumentException ex) {
-			Logger.getLogger(gerarpdf.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(GerarPDF.class.getName()).log(Level.SEVERE, null, ex);
 		}       
 	}
 
@@ -95,7 +95,7 @@ public class gerarpdf {
 			}
 			contador++;
 		} catch (IOException ex) {
-			Logger.getLogger(gerarpdf.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(GerarPDF.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}
 

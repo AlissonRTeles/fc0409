@@ -45,9 +45,9 @@ import com.restfb.FacebookClient;
 import com.restfb.Parameter;
 import com.restfb.types.Post;
 
-import sa.gerarpdf;
+import sa.GerarPDF;
 import sa.PreProcessamento;
-import sa.sentimentos;
+import sa.Sentimentos;
 /**
  *
  * @author lipe_
@@ -347,7 +347,7 @@ public class Inicio extends JFrame {
 		graftristeza=0;
 
 		////////////////////CRIA METODO PARA CLASSE GERARPDF///////////
-		gerarpdf criapdf = new gerarpdf();
+		GerarPDF criapdf = new GerarPDF();
 
 
 		////////////////////CHAMA METODO QUE CRIA PDF///////////
@@ -429,7 +429,7 @@ public class Inicio extends JFrame {
 
 				gravaarquivo.println(stopwords);
 				/////////chama a classe de contagem de sentimentos
-				sentimentos feel = new sentimentos();//cria objeto para chamar a classe
+				Sentimentos feel = new Sentimentos();//cria objeto para chamar a classe
 
 
 				//////////retorna contagem de palavras relacionadas a desgosto
@@ -595,7 +595,7 @@ public class Inicio extends JFrame {
 	private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 		// TODO add your handling code here:
 		//        ////GERAR PDF COM AS POSTAGENS
-		gerarpdf criapdf = new gerarpdf();
+		GerarPDF criapdf = new GerarPDF();
 		criapdf.abre();
 
 	}//GEN-LAST:event_jButton2ActionPerformed
