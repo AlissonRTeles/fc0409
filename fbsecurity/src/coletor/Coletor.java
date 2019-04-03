@@ -52,12 +52,14 @@ public class Coletor {
 
 
 			Query query = new Query(this.cQuery);
+			query.setCount(100);
+			
 			QueryResult result = twitter.search(query);
 			List<Status> tweets = result.getTweets();
 
 			for (Status tweet : tweets) {
 
-				buffW.write("@" + tweet.getUser().getScreenName() + ":" + tweet.getText().toUpperCase());
+				buffW.write("@" + tweet.getUser().getScreenName() + ":" + tweet.getText().toUpperCase() + "\n");
 
 			}
 

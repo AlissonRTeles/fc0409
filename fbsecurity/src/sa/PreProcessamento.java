@@ -348,7 +348,7 @@ public class PreProcessamento {
 	
 	public static void main(String[] args) {
 		PreProcessamento p = new PreProcessamento();
-		String texto = p.execPreProc("era uma vez, um cara muito legal com 1 cachorro mágico");
+		String texto = p.execPreProc("O último que se disse macho e que tinha aquilo roxo foi deposto através de #impeachment.");
 		
 		System.out.println(texto);
 		
