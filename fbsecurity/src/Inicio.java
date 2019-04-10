@@ -45,7 +45,7 @@ import com.restfb.FacebookClient;
 import com.restfb.Parameter;
 import com.restfb.types.Post;
 
-import sa.GerarPDF;
+import results.GerarPDF;
 import sa.PreProcessamento;
 import sa.Sentimentos;
 /**

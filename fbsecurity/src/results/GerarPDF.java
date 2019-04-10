@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sa;
+package results;
 
 import java.awt.Desktop;
 import java.io.File;
