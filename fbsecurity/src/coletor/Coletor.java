@@ -1,7 +1,10 @@
 package coletor;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -33,15 +36,46 @@ public class Coletor {
 
 	}
 
+	//	desenvolvido para agilizar a busca por tweets neutros
+	private void montaQuery(String cArquivo) {
+		
+		FileReader arq;
+		try {
+			arq = new FileReader(cArquivo);
+			BufferedReader lerArq = new BufferedReader(arq);
+			
+			
+			String linha = lerArq.readLine();
+			
+			while(linha != null) {
+				linha = linha.trim();
+				this.cNameFile = linha + ".txt";
+				this.cQuery = linha + " lang:pt";
+				exec();
+				linha = lerArq.readLine();
+			}
+			
+		} catch (FileNotFoundException e ) {
+			e.printStackTrace();
+		} catch (IOException e ) {
+			e.printStackTrace();
+		}
+
+	}
+
 	private void exec() {
-		System.out.println("Digite o nome do arquivo:");
-		Scanner input = new Scanner(System.in);
-		this.cNameFile = input.nextLine();
-
-		System.out.println("Digite a pesquisa:");
-		input = new Scanner(System.in);
-		this.cQuery = input.nextLine();
-
+		
+		if (this.cNameFile.isEmpty() && this.cQuery.isEmpty()) {
+			System.out.println("Digite o nome do arquivo:");
+			Scanner input = new Scanner(System.in);
+			this.cNameFile = input.nextLine();
+	
+			System.out.println("Digite a pesquisa:");
+			input = new Scanner(System.in);
+			this.cQuery = input.nextLine();
+		}
+		
+		
 		this.file = new File(cNameFile);
 
 		FileWriter fileW;
@@ -52,14 +86,17 @@ public class Coletor {
 
 
 			Query query = new Query(this.cQuery);
-			query.setCount(100);
 			
+			System.out.println("Buscando pelo termo: " + cQuery + " ... ");
+			query.setCount(100);
+
 			QueryResult result = twitter.search(query);
 			List<Status> tweets = result.getTweets();
 
 			for (Status tweet : tweets) {
 
-				buffW.write("@" + tweet.getUser().getScreenName() + ":" + tweet.getText().toUpperCase() + "\n");
+				//buffW.write("@" + tweet.getUser().getScreenName() + ":" + tweet.getText().toUpperCase() + "\n");
+				buffW.write(tweet.getText().toUpperCase() + "\n");
 
 			}
 
@@ -131,8 +168,9 @@ public class Coletor {
 
 		Coletor c = new Coletor();
 		System.out.println("Iniciando rotina de coleta de Tweets ... ");
-
-		c.exec();
+		
+		c.montaQuery("query.txt");
+		//c.exec();
 
 		System.out.println("Finalizando rotina de coleta de Tweets ...");
 	}
