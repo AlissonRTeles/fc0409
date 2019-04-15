@@ -96,7 +96,7 @@ public class Coletor {
 			for (Status tweet : tweets) {
 
 				//buffW.write("@" + tweet.getUser().getScreenName() + ":" + tweet.getText().toUpperCase() + "\n");
-				buffW.write(tweet.getText().toUpperCase() + "\n");
+				buffW.write(tweet.getText().toUpperCase() + "\n\n");
 
 			}
 
