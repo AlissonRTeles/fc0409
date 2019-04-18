@@ -5,6 +5,14 @@
  */
 package sa;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  *
  * @author lipe_
@@ -348,9 +356,39 @@ public class PreProcessamento {
 	
 	public static void main(String[] args) {
 		PreProcessamento p = new PreProcessamento();
-		String texto = p.execPreProc("O último que se disse macho e que tinha aquilo roxo foi deposto através de #impeachment.");
+		File arqProc = new File("neutro_proc.txt"); 
+		FileReader arq;
 		
-		System.out.println(texto);
+		int nCount = 1;
+		
+		try {
+			arq = new FileReader("neutro");
+			BufferedReader lerArq = new BufferedReader(arq);
+			FileWriter fileW = new FileWriter(arqProc);
+			BufferedWriter buffW = new BufferedWriter (fileW);
+			
+			
+			String linha = lerArq.readLine();
+			
+			while(linha != null) {
+				linha = linha.trim();					
+				buffW.write(p.execPreProc(linha) + "\n");
+				
+				linha = lerArq.readLine();
+				nCount++;
+			}
+			
+			buffW.flush();
+			buffW.close();
+
+			
+			System.out.println("preprocessamento finalizado");
+		} catch (FileNotFoundException e ) {
+			e.printStackTrace();
+		} catch (IOException e ) {
+			e.printStackTrace();
+		}
+
 		
 		
 		
