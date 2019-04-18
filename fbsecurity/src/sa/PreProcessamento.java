@@ -356,30 +356,36 @@ public class PreProcessamento {
 	
 	public static void main(String[] args) {
 		PreProcessamento p = new PreProcessamento();
-		File arqProc = new File("neutro_proc.txt"); 
 		FileReader arq;
-		
+		 
 		int nCount = 1;
 		
 		try {
-			arq = new FileReader("neutro");
+			arq = new FileReader("hate");
 			BufferedReader lerArq = new BufferedReader(arq);
-			FileWriter fileW = new FileWriter(arqProc);
-			BufferedWriter buffW = new BufferedWriter (fileW);
+			
+
 			
 			
 			String linha = lerArq.readLine();
 			
 			while(linha != null) {
 				linha = linha.trim();					
-				buffW.write(p.execPreProc(linha) + "\n");
+
+				File arqProc = new File("hate_fld/" + p.execPreProc(linha));
+				FileWriter fileW = new FileWriter(arqProc);
+				BufferedWriter buffW = new BufferedWriter (fileW);
+				
+				buffW.write(p.execPreProc(linha));
 				
 				linha = lerArq.readLine();
 				nCount++;
+				
+				buffW.flush();
+				buffW.close();
 			}
 			
-			buffW.flush();
-			buffW.close();
+			
 
 			
 			System.out.println("preprocessamento finalizado");
