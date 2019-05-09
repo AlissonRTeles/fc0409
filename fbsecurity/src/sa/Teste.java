@@ -9,6 +9,7 @@ public class Teste {
 		//importa a base de dados ARFF utilizando classes da Weka
 		DataSource source = new DataSource("teste.arff");
 		Instances D = source.getDataSet();
+		
 		//imprime informações associadas à base de dados
 		System.out.println("Num. instancias:" + D.numInstances());  
 		System.out.println("Num. atributos:" + D.numAttributes());  

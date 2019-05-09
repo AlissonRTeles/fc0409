@@ -1,0 +1,1039 @@
+@relation '_Users_alisson_Desktop_classes-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5'
+
+@attribute ABORTISTA numeric
+@attribute AGUA numeric
+@attribute ASNO numeric
+@attribute ASSASSINAR numeric
+@attribute BALEIA numeric
+@attribute BALOFA numeric
+@attribute BALOFO numeric
+@attribute BURRO numeric
+@attribute CANECA numeric
+@attribute CU numeric
+@attribute DOU numeric
+@attribute DURO numeric
+@attribute ESTUPRAR numeric
+@attribute EU numeric
+@attribute EXPULSAR numeric
+@attribute EXTERMINAR numeric
+@attribute FEIOSA numeric
+@attribute FEIOSO numeric
+@attribute FEMINAZI numeric
+@attribute FILHO numeric
+@attribute FILME numeric
+@attribute LIXO numeric
+@attribute MACHO numeric
+@attribute MALDITA numeric
+@attribute MELHOR numeric
+@attribute NOJENTA numeric
+@attribute OFERECIDA numeric
+@attribute PIADA numeric
+@attribute PUTA numeric
+@attribute RETARDADO numeric
+@attribute ROSCA numeric
+@attribute SEI numeric
+@attribute SUJO numeric
+@attribute TEMOS numeric
+@attribute TERRORISTA numeric
+@attribute TRABALHO numeric
+@attribute VADIA numeric
+@attribute BRINCAR numeric
+@attribute CACHORRO numeric
+@attribute CAFE numeric
+@attribute CARRO numeric
+@attribute CHA numeric
+@attribute CIRCO numeric
+@attribute FLOR numeric
+@attribute MINHA numeric
+@attribute PASSARO numeric
+@attribute SORRIR numeric
+@attribute SORVETERIA numeric
+@attribute @@class@@ {hate_fld,neutro_fld}
+
+@data
+{}
+{}
+{16 1}
+{}
+{6 1}
+{18 1}
+{15 1}
+{21 1}
+{}
+{9 1}
+{9 1}
+{9 1,19 1,28 1,29 1}
+{36 1}
+{30 1}
+{19 1,28 1}
+{12 1}
+{25 1,36 1}
+{}
+{}
+{33 1}
+{34 1}
+{21 1,25 1,28 1}
+{11 1}
+{32 1}
+{}
+{28 1,36 1}
+{}
+{5 1}
+{18 1}
+{25 1,28 1}
+{}
+{}
+{25 1}
+{12 1}
+{21 1}
+{14 1}
+{5 1}
+{}
+{}
+{26 1}
+{28 1,36 1}
+{5 1}
+{26 1}
+{21 1,29 1}
+{21 1}
+{22 1}
+{18 1}
+{25 1,28 1}
+{}
+{4 1}
+{25 1}
+{}
+{28 1}
+{6 1}
+{15 1,25 1}
+{15 1}
+{}
+{19 1,25 1,28 1}
+{}
+{19 1,28 1}
+{}
+{18 1}
+{21 1,29 1}
+{}
+{13 1,25 1,28 1}
+{7 1}
+{5 1}
+{}
+{26 1}
+{}
+{}
+{15 1}
+{25 1}
+{4 1}
+{14 1}
+{25 1,28 1}
+{32 1}
+{4 1}
+{18 1}
+{32 1}
+{12 1}
+{30 1}
+{14 1}
+{36 1}
+{}
+{1 1}
+{16 1}
+{21 1}
+{4 1}
+{28 1}
+{0 1}
+{13 1}
+{36 1}
+{29 1}
+{}
+{5 1,19 1,28 1}
+{19 1,28 1}
+{}
+{22 1}
+{9 1,21 1,29 1}
+{25 1}
+{25 1,28 1}
+{}
+{18 1}
+{11 1}
+{25 1,28 1}
+{}
+{25 1,28 1}
+{12 1}
+{}
+{34 1}
+{}
+{10 1}
+{29 1}
+{9 1}
+{18 1}
+{0 1}
+{18 1}
+{}
+{18 1}
+{}
+{32 1}
+{21 1}
+{2 1}
+{0 1}
+{}
+{}
+{2 1}
+{18 1}
+{}
+{}
+{21 1}
+{11 1}
+{}
+{}
+{19 1,28 1}
+{}
+{}
+{}
+{2 1}
+{}
+{}
+{19 1,28 1}
+{21 1}
+{}
+{}
+{15 1}
+{6 1}
+{21 1}
+{9 1,18 1}
+{2 1,21 1,29 1}
+{32 1}
+{}
+{}
+{}
+{34 1}
+{9 1}
+{19 1,28 1}
+{}
+{29 1}
+{}
+{}
+{36 1}
+{18 1}
+{21 1}
+{19 1,21 1,28 1}
+{6 1}
+{25 1,28 1}
+{4 1}
+{22 1}
+{18 1}
+{}
+{27 1}
+{19 1,28 1}
+{13 1,26 1}
+{29 1}
+{17 1}
+{17 1}
+{25 1,28 1}
+{}
+{}
+{}
+{27 1}
+{2 1}
+{21 1,29 1}
+{10 1}
+{26 1}
+{}
+{21 1}
+{}
+{26 1}
+{7 1}
+{}
+{22 1}
+{18 1}
+{26 1}
+{}
+{2 1}
+{36 1}
+{29 1}
+{7 1}
+{}
+{15 1}
+{19 1,28 1}
+{10 1}
+{16 1}
+{12 1}
+{18 1}
+{9 1}
+{36 1}
+{21 1}
+{}
+{}
+{}
+{}
+{9 1}
+{}
+{18 1}
+{4 1}
+{21 1,28 1}
+{2 1}
+{24 1}
+{24 1}
+{18 1}
+{}
+{19 1,21 1,28 1,29 1}
+{9 1,25 1,28 1}
+{}
+{}
+{11 1}
+{}
+{}
+{}
+{19 1,28 1}
+{9 1,21 1}
+{25 1,28 1}
+{}
+{0 1}
+{18 1}
+{21 1,29 1}
+{19 1,28 1}
+{21 1}
+{2 1}
+{21 1,29 1}
+{14 1}
+{18 1}
+{}
+{18 1}
+{33 1}
+{}
+{}
+{10 1}
+{}
+{32 1}
+{}
+{18 1}
+{}
+{18 1}
+{12 1}
+{15 1}
+{}
+{}
+{}
+{23 1}
+{15 1}
+{18 1}
+{10 1,13 1}
+{16 1}
+{32 1}
+{2 1}
+{}
+{}
+{34 1}
+{}
+{4 1}
+{18 1}
+{6 1}
+{6 1}
+{10 1}
+{36 1}
+{21 1}
+{9 1}
+{}
+{}
+{6 1,9 1}
+{19 1,28 1,31 1}
+{}
+{0 1}
+{2 1}
+{11 1}
+{}
+{21 1}
+{}
+{28 1}
+{}
+{19 1,20 1,21 1,28 1,29 1}
+{25 1,28 1}
+{11 1}
+{}
+{7 1}
+{18 1}
+{2 1}
+{12 1}
+{15 1}
+{}
+{19 1,28 1}
+{21 1,29 1}
+{25 1,28 1}
+{36 1}
+{}
+{}
+{36 1}
+{18 1}
+{}
+{6 1}
+{11 1}
+{12 1}
+{}
+{12 1}
+{}
+{5 1}
+{21 1}
+{}
+{}
+{3 1,13 1}
+{3 1}
+{}
+{15 1}
+{}
+{10 1}
+{}
+{27 1}
+{25 1}
+{19 1,28 1}
+{19 1,28 1}
+{3 1}
+{}
+{14 1}
+{}
+{29 1}
+{22 1}
+{25 1,28 1}
+{2 1}
+{20 1,21 1}
+{23 1}
+{}
+{0 1}
+{13 1,14 1}
+{15 1}
+{10 1}
+{}
+{13 1,25 1,28 1}
+{9 1,19 1,28 1}
+{}
+{}
+{18 1,25 1,36 1}
+{12 1}
+{32 1}
+{21 1,25 1,28 1}
+{34 1}
+{19 1,28 1}
+{}
+{17 1}
+{9 1}
+{21 1,29 1,31 1}
+{21 1,35 1}
+{}
+{21 1,29 1}
+{}
+{}
+{18 1}
+{12 1}
+{6 1}
+{18 1}
+{13 1}
+{5 1}
+{26 1}
+{18 1}
+{}
+{}
+{}
+{}
+{6 1}
+{12 1}
+{34 1}
+{26 1}
+{}
+{28 1}
+{7 1}
+{29 1}
+{2 1}
+{29 1}
+{}
+{27 1}
+{}
+{}
+{}
+{8 1}
+{}
+{}
+{}
+{}
+{}
+{3 1}
+{25 1,28 1}
+{21 1,29 1}
+{29 1}
+{21 1,29 1}
+{25 1,28 1}
+{18 1}
+{2 1}
+{}
+{29 1}
+{7 1}
+{12 1}
+{21 1,22 1,29 1}
+{25 1}
+{30 1}
+{26 1}
+{32 1}
+{9 1,25 1}
+{9 1,21 1}
+{}
+{}
+{}
+{}
+{}
+{9 1,19 1,28 1}
+{}
+{4 1}
+{21 1,28 1}
+{36 1}
+{}
+{15 1}
+{}
+{15 1}
+{9 1}
+{21 1,29 1}
+{25 1,28 1}
+{18 1}
+{32 1}
+{17 1}
+{23 1}
+{}
+{19 1,28 1}
+{10 1}
+{15 1}
+{}
+{19 1,28 1}
+{11 1,19 1,28 1}
+{15 1}
+{}
+{21 1}
+{2 1}
+{9 1,25 1,28 1}
+{}
+{36 1}
+{25 1}
+{12 1}
+{18 1}
+{23 1}
+{3 1}
+{14 1,19 1,28 1}
+{25 1,28 1}
+{18 1}
+{}
+{21 1}
+{19 1,21 1,28 1}
+{0 1}
+{6 1}
+{}
+{25 1,28 1}
+{}
+{22 1}
+{2 1}
+{18 1}
+{19 1,28 1}
+{}
+{14 1}
+{11 1}
+{10 1}
+{12 1}
+{}
+{26 1}
+{}
+{13 1}
+{27 1}
+{25 1,28 1}
+{}
+{}
+{25 1,28 1}
+{18 1}
+{25 1}
+{12 1}
+{33 1}
+{}
+{}
+{13 1,20 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,20 1,48 neutro_fld}
+{13 1,40 1,48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{45 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{1 1,13 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{28 1,44 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{24 1,39 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{38 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{48 neutro_fld}
+{46 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{48 neutro_fld}
+{1 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{24 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{46 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{48 neutro_fld}
+{1 1,48 neutro_fld}
+{38 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{46 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{40 1,48 neutro_fld}
+{13 1,41 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,42 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{24 1,41 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,48 neutro_fld}
+{31 1,39 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,20 1,48 neutro_fld}
+{24 1,39 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{13 1,39 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{44 1,48 neutro_fld}
+{44 1,47 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{35 1,41 1,48 neutro_fld}
+{13 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{8 1,39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{28 1,40 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{8 1,39 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{38 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{37 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{20 1,31 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{39 1,41 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{20 1,35 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{35 1,44 1,48 neutro_fld}
+{41 1,44 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{41 1,44 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{8 1,13 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{24 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{31 1,41 1,48 neutro_fld}
+{13 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,47 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{31 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{1 1,44 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{35 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{24 1,42 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{13 1,20 1,48 neutro_fld}
+{31 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{13 1,48 neutro_fld}
+{24 1,39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{28 1,47 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{13 1,39 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{24 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{1 1,20 1,24 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{31 1,43 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{48 neutro_fld}
+{46 1,48 neutro_fld}
+{13 1,39 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{31 1,35 1,47 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{13 1,43 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{13 1,39 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{24 1,35 1,48 neutro_fld}
+{8 1,35 1,39 1,48 neutro_fld}
+{48 neutro_fld}
+{40 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{35 1,43 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{13 1,35 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{31 1,40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{39 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{46 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{48 neutro_fld}
+{35 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{1 1,31 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{24 1,43 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{24 1,39 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{1 1,8 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{13 1,31 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{13 1,35 1,37 1,41 1,48 neutro_fld}
+{48 neutro_fld}
+{24 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{44 1,47 1,48 neutro_fld}
+{48 neutro_fld}
+{40 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{31 1,39 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,42 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{13 1,31 1,39 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{8 1,39 1,44 1,48 neutro_fld}
+{46 1,48 neutro_fld}
+{24 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{48 neutro_fld}
+{31 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{8 1,39 1,48 neutro_fld}
+{48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{46 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{25 1,35 1,48 neutro_fld}
+{48 neutro_fld}
+{1 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{13 1,29 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{8 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{48 neutro_fld}
+{41 1,48 neutro_fld}
+{8 1,48 neutro_fld}
+{1 1,39 1,48 neutro_fld}
+{48 neutro_fld}
+{1 1,48 neutro_fld}
+{41 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{42 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{20 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{13 1,35 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{8 1,13 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,20 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{1 1,35 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{43 1,44 1,48 neutro_fld}
+{24 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{13 1,47 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{46 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{45 1,48 neutro_fld}
+{1 1,48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{47 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{24 1,48 neutro_fld}
+{40 1,44 1,48 neutro_fld}
+{39 1,48 neutro_fld}
+{37 1,48 neutro_fld}
+{24 1,43 1,48 neutro_fld}
+{47 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{35 1,48 neutro_fld}
+{48 neutro_fld}
+{20 1,48 neutro_fld}
+{40 1,48 neutro_fld}
+{31 1,41 1,48 neutro_fld}
+{13 1,41 1,48 neutro_fld}
+{39 1,41 1,48 neutro_fld}
+{48 neutro_fld}
+{13 1,48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{48 neutro_fld}
+{28 1,38 1,48 neutro_fld}
+{1 1,13 1,48 neutro_fld}
+{8 1,39 1,48 neutro_fld}
+{43 1,48 neutro_fld}
+{8 1,39 1,48 neutro_fld}
